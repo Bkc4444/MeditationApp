@@ -5,4 +5,32 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/mainFragment">
 
+    <activity
+        android:id="@+id/meditation2Fragment"
+        android:name="com.example.meditationapp.Meditation2Fragment"
+        android:label="fragment_meditation2"
+        tools:layout="@layout/fragment_meditation2" />
+    <activity
+        android:id="@+id/meditation1Fragment"
+        android:name="com.example.meditationapp.Meditation1Fragment"
+        android:label="fragment_meditation4"
+        tools:layout="@layout/fragment_meditation4" />
+    <activity
+        android:id="@+id/meditation3Fragment"
+        android:name="com.example.meditationapp.Meditation3Fragment"
+        android:label="Meditation3Fragment" />
+    <activity
+        android:id="@+id/meditation4Fragment"
+        android:name="com.example.meditationapp.Meditation4Fragment"
+        android:label="Meditation4Fragment" />
+    <activity
+        android:id="@+id/mainFragment"
+        android:name="com.example.meditationapp.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.meditationapp.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
 </navigation>
