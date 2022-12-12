@@ -46,13 +46,6 @@ class MainFragment : Fragment() {
                 transaction?.replace(R.id.nav_graph,medFrag4)?.commit()
             }
 
-
-            val constraintLayout: ConstraintLayout = view.findViewById(R.id.mainFragment)
-            val animationDrawable: AnimationDrawable = constraintLayout.background as AnimationDrawable
-            animationDrawable.setEnterFadeDuration(3000)
-            animationDrawable.setExitFadeDuration(3000)
-            animationDrawable.start()
-
             return view
     }
 }
