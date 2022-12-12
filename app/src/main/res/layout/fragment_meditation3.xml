@@ -8,6 +8,17 @@
     android:background="@drawable/gradient_list"
     tools:context=".Meditation1Fragment" >
 
+    <TextView
+        android:id="@+id/breath3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breath with the background"
+        android:textColor="#F2EDED"
+        app:layout_constraintBottom_toTopOf="@+id/startStopBtn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/homeBtn3"
         android:layout_width="wrap_content"
